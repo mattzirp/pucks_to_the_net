@@ -111,6 +111,36 @@ We again repeat our heatmap visualization of the location density over seasons, 
 
 In this part of the analysis, we wanted to look if there were any distinguishable key differences in All-Star player scoring versus League Average. Using the hockey-reference all-star data from the 2010-2020 seasons, we gathered the most frequent all-star players to visualize scoring patterns, goal/shot heatmaps, and K-Means clustering on goals. On the other side, we defined League-Average players as players aged 20-30 in the 2010-2020 seasons, fitting between the mean and one standard deviation of points scored for both offense and defensive positions. From there, we plotted the same visualizations as the All-Stars to see if there were any key differences between the two. 
 
+Below is the distribution for League-Average Offense and Defense Players in terms of points
+![Offensive Production Distribution](../reports/figures/offensive_production_distribution.png)
+
+![Defensive Production Distribution](../reports/figures/defensive_production_distribution.png)
+
+We first analysed the heatmap of goals from each group of players, seeing if there are any key differences in point production locations using the Seaborn heatmap visualization
+
+![League-Average Goal Heatmap](../reports/figures/league_average_offenseman_goal_heatmap.png)
+
+![All-Star Goal Heatmap](../reports/figures/all_star_shot_goal_heatmap.png)
+
+We see there is quite a difference in some players veruss one another, we see that generally all-star players have a more defined goal production location on the ice, versus league average having production from everywhere, meaning they are taking less set up shots and shoot the puck from wherever they can. 
+
+Next, we can see the difference in goals scored by period
+
+![All-Star Goal Scoring by Period](../reports/figures/all_star_scoring_by_period.png)
+
+![League-Average Goal Scoring by Period](../reports/figures/league_average_goal_scoring_by_period.png)
+
+From this we can see the two groups have the opposite of goal scoring from one another. Where League-Average is scoring mostly in the first period, and every period after the goal totals fall off. The exact opposite is seen with the All-Stars, as they score the most goals in the second and third period. 
+
+Lastly, we will look at the K-Means clustering for both groups, seeing where the main locations are for goals scored across the group totals, instead of individual players. 
+
+![K-Means Clustering for Goals Scored for All-Stars](../reports/figures/all_star_goal_clustering.png)
+
+![K-Means Clustering for Goals Scored for League-Average](../reports/figures/league_average_goal_clustering.png)
+
+The centroid locations for both groups are quite different from one another. A key difference is the third centroid being in the own teams zone for All-Stars, this points to all of the empty net goals scored by All-Star players in the last minutes of the game. Meaning that they are going to be on the ice more versus the league-average players. 
+
+Overall, we see that there are many key differences between the two groups, with more analysis done in the final report, we see that all-stars should be considered all-stars versus league-average players, and that there are a wide range of skill and discrepances between the two. 
 
 ## Conclusions
 
