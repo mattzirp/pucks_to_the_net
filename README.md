@@ -126,9 +126,9 @@ We see there is quite a difference in some players veruss one another, we see th
 
 Next, we can see the difference in goals scored by period
 
-![All-Star Goal Scoring by Period](/reports/figures/all_star_scoring_by_period.png)
+![All-Star Goal Scoring by Period](/reports/figures/all_star_goal_scoring_by_period.png)
 
-![League-Average Goal Scoring by Period](/reports/figures/league_average_goal_scoring_by_period.png)
+![League-Average Goal Scoring by Period](/reports/figures/league_average_goals_by_period.png)
 
 From this we can see the two groups have the opposite of goal scoring from one another. Where League-Average is scoring mostly in the first period, and every period after the goal totals fall off. The exact opposite is seen with the All-Stars, as they score the most goals in the second and third period. 
 
