@@ -107,6 +107,29 @@ We again repeat our heatmap visualization of the location density over seasons, 
 
 ### Game Situation Analysis
 
+To analyze different game situations we look at several key scenarios, which may play a role in what type of shot a player chooses to make. The first situation is when a team is winning or losing. We will compare winning and losing teams shot types using double bar plots and visualize the positions where they shoot from.
+
+![Shot Types Filtered by Winning and Losing Teams](/reports/figures/winning_losing_shots.png)
+
+![Goals Filtered by Winning and Losing Teams](/reports/figures/winning_losing_goals.png)
+
+![Positions of Goals Filtered by Winning and Losing Teams in October 2018](/reports/figures/winning_losing_october.png)
+
+![Positions of Goals Filtered by Winning and Losing Teams in April 2018](/reports/figures/winning_losing_april.png)
+
+Our next scenario is before and after a goal has been scored. This will allow us to see if players choose different shots based on how well a goalie is playing, as well as when teams may be frustrated being unable to create any offense. We will use a stacked bar plot to contrast shot types before and after a goal has been scored. We will also visualize positions of shots before a goal has been scored.
+
+![Distribution of Shot Types Before and After a Goal Has Been Scored](/reports/figures/shot_types_before_and_after_goals_scored.png)
+
+![Shot Positions Before a Goal Has Been Scored](/reports/figures/shot_types_before_and_after_goals_scored.png)
+
+The final scenario is shot types during the shootout. We will again use a stacked bar plot to contrast shot types in the shootout in games where goals were scored and games where there were no goals. We will visualize the position of these goals as well.
+
+![Distribution of Shootout Goals by Shot Type](/reports/figures/shootout_goals.png)
+
+![Position of Shootout Goals](/reports/figures/shootout_goal_positions.png)
+
+
 ### All-Star vs. League-Average Analysis
 
 In this part of the analysis, we wanted to look if there were any distinguishable key differences in All-Star player scoring versus League Average. Using the hockey-reference all-star data from the 2010-2020 seasons, we gathered the most frequent all-star players to visualize scoring patterns, goal/shot heatmaps, and K-Means clustering on goals. On the other side, we defined League-Average players as players aged 20-30 in the 2010-2020 seasons, fitting between the mean and one standard deviation of points scored for both offense and defensive positions. From there, we plotted the same visualizations as the All-Stars to see if there were any key differences between the two. 
