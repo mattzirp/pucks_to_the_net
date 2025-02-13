@@ -18,9 +18,19 @@ As students in a Canadian city, we are avid fans of hockey. As data science stud
 
 4. Have shot patterns changed over the years (ie do they succeed from different areas, do players favour different shot types/locations)?
 
+## Dataset 
+As mentioned, our dataset is [NHL Game Data](https://www.kaggle.com/datasets/martinellis/nhl-game-data/data), hosted on Kaggle.  The NHL Game Data dataset contains multiple tables stored in .csv format, and essentially represents a point in time retrieval of a relational database. The data set contains informational for all games played between the years of 2000 and 2020. 
+
+Of particular interest is the game_plays table, which stores data regarding plays that happen in NHL games. Each row repesents a play in a game. Each recorded play has a type, and some have secondary types to further categorize the play. Recorded play types are things like goals, shots, faceoffs, penalties, hits, and other statistics driving events. The x,y coordinates for some of these play types, like shots and goals are also stored, as well as the players involved, the current game time, and the current score. This table offers plenty of opportunity to perform aggregations and answer many of our 
+
+The games table stores information like, season, outcome, whether the game was settled in Regulation, Overtime, or a shootout, the score, etc. We will use this for time series analysis, as well as game situation analysis.
+
+We can also walk across the game_plays_players table to the player_info table to get further information about players. This will allow us to identify players by name like Alex Ovechkin, rather than their ID number in the table. We use this identifying information to match up All star game data from [hockey-reference](https://www.hockey-reference.com/allstar/), using a player's selection for the all star game as a stand in for player quality. 
+
 ## Methods 
 
 #### Data Cleaning
+
 
 #### Baseline Analysis
 
