@@ -107,7 +107,9 @@ We again repeat our heatmap visualization of the location density over seasons, 
 
 ### Game Situation Analysis
 
-### All Star v. League Average Analysis
+### All-Star vs. League-Average Analysis
+
+In this part of the analysis, we wanted to look if there were any distinguishable key differences in All-Star player scoring versus League Average. Using the hockey-reference all-star data from the 2010-2020 seasons, we gathered the most frequent all-star players to visualize scoring patterns, goal/shot heatmaps, and K-Means clustering on goals. On the other side, we defined League-Average players as players aged 20-30 in the 2010-2020 seasons, fitting between the mean and one standard deviation of points scored for both offense and defensive positions. From there, we plotted the same visualizations as the All-Stars to see if there were any key differences between the two. 
 
 
 ## Conclusions
