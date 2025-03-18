@@ -194,3 +194,5 @@ https://www.hockey-reference.com/allstar/
 7. Waskom, M.L., 2021. Seaborn: statistical data visualization. Journal of Open Source Software, 6(60), pp.3021. Available at: https://doi.org/10.21105/joss.03021
 
 8. Drucker, Ross, 2022. Sportpy: Python package for drawing regulation playing surfaces for several sports. Available at https://sportypy.sportsdataverse.org/index.html
+
+## Contributing
